@@ -1,2 +1,113 @@
 # National-Parks-Info-App
-An application that gives the user the chance to look up a multitude of national parks and get information and images on them back in a visually pleasing mannor.
+
+# Project Overview
+
+## Project Name
+
+National Parks App
+
+## Project Description
+
+An application that gives the user the chance to look up a multitude of national parks and get information and images on them back in a visually pleasing mannor. I want to give knowledge about the parks to the public that isn't convoluted and hard to get to. Hopefully giving a visually stunning page.
+
+
+## API and Data Sample
+
+https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn
+
+```
+{
+    "total": "1",
+    "limit": "50",
+    "start": "0",
+    "data": [
+        {
+            "id": "6DA17C86-088E-4B4D-B862-7C1BD5CF236B",
+            "url": "https://www.nps.gov/acad/index.htm",
+            "fullName": "Acadia National Park",
+            "parkCode": "acad",
+            "description": "Acadia National Park protects the natural beauty of the highest rocky headlands along the Atlantic coastline of the United States, an abundance of habitats, and a rich cultural heritage. At 3.5 million visits a year, it's one of the top 10 most-visited national parks in the United States. Visitors enjoy 27 miles of historic motor roads, 158 miles of hiking trails, and 45 miles of carriage roads.",
+            "latitude": "44.409286",
+            "longitude": "-68.247501",
+            "latLong": "lat:44.409286, long:-68.247501",
+            "activities": [
+```
+
+
+## Wireframes
+
+- Homepage = https://wireframe.cc/HyFbTt
+- Citation Page = https://wireframe.cc/sHV1m5
+
+### MVP/PostMVP
+
+The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+
+#### MVP 
+
+- use css to manipulate the z-index to create a unique citation page
+- save the inputs of the user to create a recently searched list
+- based on input, giving the name, image, description, state location, and hours
+
+#### PostMVP  
+
+- have a loading screen or icon
+- Add media queries for responsive design.
+- give directions to the park 
+
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|May 17| Project Approval / Boilerplate HTML, CSS, etc. | Incomplete
+|May 18| Pseudocode / Functional User Input JS | Incomplete
+|May 19| Citation page and Recents list comlete | Incomplete
+|May 20| Finishing CSS Touches and Checking Links | Incomplete
+|May 21| Presentations | Incomplete
+
+## Priority Matrix
+
+Matrix: https://wireframe.cc/3axgsI
+## Timeframes
+
+Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Approval | H | 1hrs|  |  |
+| Boilerplate (HTML, CSS, JS) | H | 2hrs|  |  |
+| Pseudo Code | H | 2hrs|  |  |
+| Link API | H | 2hrs|  |  |
+| Make functioning search bar & button | H | 3hrs|  |  |
+| Get the name, image, description, state location, and hours for the parks | H | 3hrs|  |  |
+| Append results to the DOM | H | 3hrs|  |  |
+| Remove former searches | H | 2hrs|  |  |
+| Log former search results | H | 3hrs|  |  |
+| Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
+| Create Divs for Citation page | H | 1.5hrs|  |  |
+| Make citation page appear with click of the button | H | 3hrs|  |  |
+| Add image(s) to page (outside of the api) | H | .5hrs|  |  |
+| Clean up CSS make it visually cohesive | H | 2hrs|  |  |
+| Attempt making changes for mobile | H | 3hrs|  |  |
+| Attempt loading icon | H | 3hrs|  |  |
+| Total | H | 35hrs| hrs | hrs |
+
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
+
+## Change Log
+ Use this section to document what changes were made and the reasoning behind those changes.  
