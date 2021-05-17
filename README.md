@@ -77,7 +77,7 @@ Matrix: https://wireframe.cc/3axgsI
 | Approval | H | 1hrs| .5 | .5 |
 | Boilerplate (HTML, CSS, JS) | H | 2hrs| 1 | 1 |
 | Pseudo Code | H | 2hrs| .5 | .5 |
-| Link API | H | 2hrs|  |  |
+| Link API | H | 2hrs| 1.5 | 1.5 |
 | Make functioning search bar & button | H | 3hrs|  |  |
 | Get the name, image, description, state location, and hours for the parks | H | 3hrs|  |  |
 | Append results to the DOM | H | 3hrs|  |  |
