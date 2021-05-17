@@ -13,7 +13,7 @@ An application that gives the user the chance to look up a multitude of national
 
 ## API and Data Sample
 
-https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn
+https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn
 
 ```
 {
@@ -41,25 +41,22 @@ https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=iDGndNNbXpQ40TKBbBO
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 
-- use css to manipulate the z-index to create a unique citation page
-- save the inputs of the user to create a recently searched list
-- based on input, giving the name, image, description, state location, and hours
+- Take a user input to search by State initials (ex.CT for Connecticut).
+- Render a list of National Parks.
+- Remove previous search results from the DOM.
+- based on input, giving the name, image, description, state location, and hours.
 
 #### PostMVP  
 
-- have a loading screen or icon
+- have a loading screen or icon.
 - Add media queries for responsive design.
-- give directions to the park 
+- give directions to the park .
+- use css to manipulate the z-index to create a unique citation page.
+- save the inputs of the user to create a recently searched list.
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -75,10 +72,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 Matrix: https://wireframe.cc/3axgsI
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Approval | H | 1hrs|  |  |
@@ -91,9 +84,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Remove former searches | H | 2hrs|  |  |
 | Log former search results | H | 3hrs|  |  |
 | Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
-| Create Divs for Citation page | H | 1.5hrs|  |  |
+| Create Divs for Citation page | H | 2hrs|  |  |
 | Make citation page appear with click of the button | H | 3hrs|  |  |
-| Add image(s) to page (outside of the api) | H | .5hrs|  |  |
+| Add image(s) to page (outside of the api) | H | 1hrs|  |  |
 | Clean up CSS make it visually cohesive | H | 2hrs|  |  |
 | Attempt making changes for mobile | H | 3hrs|  |  |
 | Attempt loading icon | H | 3hrs|  |  |
