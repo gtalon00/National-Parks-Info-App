@@ -74,9 +74,9 @@ Matrix: https://wireframe.cc/3axgsI
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Approval | H | 1hrs|  |  |
-| Boilerplate (HTML, CSS, JS) | H | 2hrs|  |  |
-| Pseudo Code | H | 2hrs|  |  |
+| Approval | H | 1hrs| .5 | .5 |
+| Boilerplate (HTML, CSS, JS) | H | 2hrs| 1 | 1 |
+| Pseudo Code | H | 2hrs| .5 | .5 |
 | Link API | H | 2hrs|  |  |
 | Make functioning search bar & button | H | 3hrs|  |  |
 | Get the name, image, description, state location, and hours for the parks | H | 3hrs|  |  |
