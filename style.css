@@ -1,0 +1,27 @@
+.nav-bar {
+  padding: 0px;
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.66);
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background: url(https://i.imgur.com/cMzhQVf.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: rgb(225, 204, 186);
+}
+
+  li {
+  display: inline;
+}
+
+aside {
+  float: left;
+}
