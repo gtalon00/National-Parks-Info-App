@@ -5,13 +5,13 @@ const getParkNames = async (input) => {
   try {
     let filterParks = await axios.get(`https://developer.nps.gov/api/v1/parks?stateCode=${input}&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn`)
     const parkData = filterParks.data.data
-    console.log(parkData)
+    // console.log(parkData)
     showParks(parkData)
   } catch (error) {
     console.error(error)
   }
 }
-getParkNames('ME')
+// getParkNames('ME')
 // create a function that creates the park info
 function showParks(parkData) {
   parkData.forEach(park => {
@@ -19,9 +19,9 @@ function showParks(parkData) {
     console.log(parkHours)
     let parkInfo = `
     <img src="${park.images[0].url}">
-    <h2>${park.fullName}</h2>
-    <h3>${park.addresses[0].city}</h3>
-    <p>${park.description}</p>
+    <h2 class="park-name">${park.fullName}</h2>
+    <h3 class="">${park.addresses[0].stateCode}, ${park.addresses[0].city}</h3>
+    <p class="">${park.description}</p>
     <ul class="days-of-the-week">
     <li>Monday: ${parkHours.monday}</li>
     <li>Tuesday: ${parkHours.tuesday}</li>
@@ -31,7 +31,7 @@ function showParks(parkData) {
     <li>Saturday: ${parkHours.saturday}</li>
     <li>Sunday: ${parkHours.sunday}</li>
     </ul>
-    <div id="${park.parkCode}-hours"></div>
+    
     
     <p>${park.weatherInfo}</p>
     `
@@ -40,7 +40,7 @@ function showParks(parkData) {
     //   let operatingHours = `<p>${day}: ${parkHours[day]}</p>`
     //   document.querySelector(`#${park.parkCode}-hours`).insertAdjacentHTML('beforeend', operatingHours)
     // }
-    // return parkInfo
+    return parkInfo
   })
 }
 // showParks()
@@ -63,3 +63,4 @@ function appendParkInfo() {
 // going back into the code
 // <h3>${park.operatingHours[0].standardHours}</h3>
 // <h3>${park.address[0].city}</h3>
+//<div id="${park.parkCode}-hours"></div>

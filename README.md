@@ -64,7 +64,7 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 |May 17| Project Approval / Boilerplate HTML, CSS, etc. | Complete
 |May 18| Pseudocode / Functional User Input JS | Incomplete
 |May 19| Rough Draft CSS Layout (The final product but not refined) | Incomplete
-|May 20| Finishing CSS Touches and Checking Links | Incomplete
+|May 20| Finshed CSS refined look. attempted loading icon | Incomplete
 |May 21| Presentations | Incomplete
 
 ## Priority Matrix
@@ -86,10 +86,10 @@ Matrix: https://wireframe.cc/3axgsI
 | Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
 | Create Divs for Citation page | H | 2hrs|  |  |
 | Make citation page appear with click of the button | H | 3hrs|  |  |
-| Add image(s) to page (outside of the api) | H | 1hrs|  |  |
+| Add image(s) to page (outside of the api) | H | 1hrs| .5 | .5 |
 | Clean up CSS make it visually cohesive | H | 2hrs|  |  |
-| Attempt making changes for mobile | H | 3hrs|  |  |
-| Attempt loading icon | H | 3hrs|  |  |
+| (Attempt) making changes for mobile | H | 3hrs|  |  |
+| (Attempt) loading icon | H | 3hrs|  |  |
 | Total | H | 35hrs| hrs | hrs |
 
 ## Code Snippet
