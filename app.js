@@ -6,7 +6,7 @@ const getParkNames = async (input) => {
     let filterParks = await axios.get(`https://developer.nps.gov/api/v1/parks?stateCode=${input}&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn`)
     const parkData = filterParks.data.data
     console.log(parkData)
-    // showParks(parkData)
+    showParks(parkData)
   } catch (error) {
     console.error(error)
   }
@@ -15,20 +15,41 @@ getParkNames('ME')
 // create a function that creates the park info
 function showParks(parkData) {
   parkData.forEach(park => {
+    let parkHours = park.operatingHours[0].standardHours
+    console.log(parkHours)
     let parkInfo = `
+    <img src="${park.images[0].url}">
     <h2>${park.fullName}</h2>
-    <img src="${park.images}">
-    <p>${park.description}</hp>
+    <h3>${park.addresses[0].city}</h3>
+    <p>${park.description}</p>
+    <ul class="days-of-the-week">
+    <li>Monday: ${parkHours.monday}</li>
+    <li>Tuesday: ${parkHours.tuesday}</li>
+    <li>Wednesday: ${parkHours.wednesday}</li>
+    <li>Thursday: ${parkHours.thursday}</li>
+    <li>Friday: ${parkHours.friday}</li>
+    <li>Saturday: ${parkHours.saturday}</li>
+    <li>Sunday: ${parkHours.sunday}</li>
+    </ul>
+    <div id="${park.parkCode}-hours"></div>
+    
+    <p>${park.weatherInfo}</p>
     `
     document.querySelector('.park-data').insertAdjacentHTML('beforeend', parkInfo)
+    // for (day in parkHours) {
+    //   let operatingHours = `<p>${day}: ${parkHours[day]}</p>`
+    //   document.querySelector(`#${park.parkCode}-hours`).insertAdjacentHTML('beforeend', operatingHours)
+    // }
     // return parkInfo
   })
 }
+// showParks()
 
 // create button event listener that submits the form
 button.addEventListener('click', () => {
   const output = document.querySelector('#search-bar').value
   getParkNames(output)
+  document.querySelector('.park-data').innerHTML = '<h1>About the Parks</h1>'
 })
 
 // append the info to the DOM^
@@ -40,5 +61,5 @@ function appendParkInfo() {
 // define button 
 
 // going back into the code
-// <h3>${park.operatinghours.standardhours}</h3>
+// <h3>${park.operatingHours[0].standardHours}</h3>
 // <h3>${park.address[0].city}</h3>

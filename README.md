@@ -46,7 +46,7 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 - Take a user input to search by State initials (ex.CT for Connecticut).
 - Render a list of National Parks.
 - Remove previous search results from the DOM.
-- based on input, giving the name, image, description, state location, and hours.
+- based on input, giving the name, image, description, and hours.
 
 #### PostMVP  
 
@@ -61,9 +61,9 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 |  Day | Deliverable | Status
 |---|---| ---|
 |May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|May 17| Project Approval / Boilerplate HTML, CSS, etc. | Incomplete
+|May 17| Project Approval / Boilerplate HTML, CSS, etc. | Complete
 |May 18| Pseudocode / Functional User Input JS | Incomplete
-|May 19| Citation page and Recents list comlete | Incomplete
+|May 19| Rough Draft CSS Layout (The final product but not refined) | Incomplete
 |May 20| Finishing CSS Touches and Checking Links | Incomplete
 |May 21| Presentations | Incomplete
 
@@ -78,10 +78,10 @@ Matrix: https://wireframe.cc/3axgsI
 | Boilerplate (HTML, CSS, JS) | H | 2hrs| 1 | 1 |
 | Pseudo Code | H | 2hrs| .5 | .5 |
 | Link API | H | 2hrs| 1.5 | 1.5 |
-| Make functioning search bar & button | H | 3hrs|  |  |
-| Get the name, image, description, state location, and hours for the parks | H | 3hrs|  |  |
-| Append results to the DOM | H | 3hrs|  |  |
-| Remove former searches | H | 2hrs|  |  |
+| Make functioning search bar & button | H | 3hrs| 1.5 | 1.5 |
+| Get the name, image, description, location, and hours for the parks | H | 3hrs| 4 | 4 |
+| Append results to the DOM | H | 3hrs| 1.5 | 1.5 |
+| Remove former searches | H | 2hrs| 1 | 1 |
 | Log former search results | H | 3hrs|  |  |
 | Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
 | Create Divs for Citation page | H | 2hrs|  |  |
