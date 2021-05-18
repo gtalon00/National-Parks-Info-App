@@ -18,9 +18,13 @@ function showParks(parkData) {
     let parkHours = park.operatingHours[0].standardHours
     console.log(parkHours)
     let parkInfo = `
-    <img src="${park.images[0].url}">
+    <div class='all-park-info'>
+    <div class='img-and-info'>
+    <img class='park-img'src="${park.images[0].url}">
     <h2 class="park-name">${park.fullName}</h2>
     <h3 class="">${park.addresses[0].stateCode}, ${park.addresses[0].city}</h3>
+    </div>
+    <div class='park-description'>
     <p class="">${park.description}</p>
     <ul class="days-of-the-week">
     <li>Monday: ${parkHours.monday}</li>
@@ -32,8 +36,8 @@ function showParks(parkData) {
     <li>Sunday: ${parkHours.sunday}</li>
     </ul>
     
+    </div>
     
-    <p>${park.weatherInfo}</p>
     `
     document.querySelector('.park-data').insertAdjacentHTML('beforeend', parkInfo)
     // for (day in parkHours) {
@@ -60,7 +64,8 @@ function appendParkInfo() {
 // Remove recently searched from the DOM
 // define button 
 
-// going back into the code
+// maybe going back into the code
 // <h3>${park.operatingHours[0].standardHours}</h3>
 // <h3>${park.address[0].city}</h3>
-//<div id="${park.parkCode}-hours"></div>
+// <div id="${park.parkCode}-hours"></div>
+// <p>${park.weatherInfo}</p>

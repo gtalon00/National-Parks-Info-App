@@ -2,6 +2,8 @@
   border: 1px solid rgb(37, 33, 33) !important;
 } */
 
+
+/* most of screen*/
 body{
   display: flex;
   flex-direction: column;
@@ -13,7 +15,7 @@ body{
 }
 
 
-
+/* top of screen*/
 .nav-bar {
   padding: 0px;
   margin: 0px;
@@ -26,7 +28,7 @@ header {
   justify-content: flex-start;
   flex-direction: column;
   color: rgb(240, 238, 236);
-  /* text-shadow: 0px 10px 0px 10px black; */
+  text-shadow: 3px 3px black;
 }
   nav {
   display: inline;
@@ -34,25 +36,25 @@ header {
 }
 
 
-
+/* holds right and left side of screen*/
 .divider {
   display: flex;
   flex-direction: row;
-  /* width: 100%;
-  min-height: 100vh; */
 }
+
+
+/* left side of screen*/
 .s-bar{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  background: burlywood;
-  /* min-height: 100%; */
+  background: rgb(126, 109, 86);
 }
 .search-img{
   display: flex;
   justify-content: center;
-  width: 200px;
+  width: 215px;
   height: auto;
 }
 .states-div{
@@ -62,24 +64,39 @@ header {
 }
 .states-ul{
   list-style: none;
+  
 }
-.states-initials{
+.states-initials-ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.park-description{
   display: flex;
   flex-direction: column;
 }
 
 
-
+/* right side of screen*/
+/* these two are in the works*/
+/* .all-park-info{
+  display: flex;
+  background-color: blanchedalmond;
+}
+.img-and-info{
+  display: flex;
+  flex-direction: column;
+} */
 .outcome{
   min-width: 75%;
   padding-left: 10px;
-  background: rgb(150, 176, 139);
+  background: rgb(97, 113, 90);
   min-height: 100%;
 }
 .about{
   text-align: center;
 }
-.park-data > img {
+.park-img {
 width: 40%;
 max-width: 350px;
 height: auto;
