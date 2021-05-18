@@ -1,11 +1,6 @@
 /* * {
   border: 1px solid rgb(37, 33, 33) !important;
 } */
-.nav-bar {
-  padding: 0px;
-  margin: 0px;
-  background: rgba(0, 0, 0, 0.66);
-}
 
 body{
   display: flex;
@@ -17,6 +12,13 @@ body{
   box-sizing: border-box;
 }
 
+
+
+.nav-bar {
+  padding: 0px;
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.66);
+}
 header {
   background: url(https://i.imgur.com/cMzhQVf.jpg);
   background-size: cover;
@@ -26,10 +28,12 @@ header {
   color: rgb(240, 238, 236);
   /* text-shadow: 0px 10px 0px 10px black; */
 }
-
-  li {
+  nav {
   display: inline;
+  
 }
+
+
 
 .divider {
   display: flex;
@@ -40,10 +44,10 @@ header {
 .s-bar{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: flex-start;
   text-align: left;
   background: burlywood;
-  min-height: 100%;
+  /* min-height: 100%; */
 }
 .search-img{
   display: flex;
@@ -51,16 +55,29 @@ header {
   width: 200px;
   height: auto;
 }
-.states{
+.states-div{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
+.states-ul{
+  list-style: none;
+}
+.states-initials{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .outcome{
   min-width: 75%;
   padding-left: 10px;
   background: rgb(150, 176, 139);
   min-height: 100%;
+}
+.about{
+  text-align: center;
 }
 .park-data > img {
 width: 40%;

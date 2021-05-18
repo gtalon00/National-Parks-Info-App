@@ -49,7 +49,7 @@ function showParks(parkData) {
 button.addEventListener('click', () => {
   const output = document.querySelector('#search-bar').value
   getParkNames(output)
-  document.querySelector('.park-data').innerHTML = '<h1>About the Parks</h1>'
+  document.querySelector('.park-data').innerHTML = '<h1 class="about">About the Parks</h1>'
 })
 
 // append the info to the DOM^

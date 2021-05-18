@@ -82,15 +82,16 @@ Matrix: https://wireframe.cc/3axgsI
 | Get the name, image, description, location, and hours for the parks | H | 3hrs| 4 | 4 |
 | Append results to the DOM | H | 3hrs| 1.5 | 1.5 |
 | Remove former searches | H | 2hrs| 1 | 1 |
-| Log former search results | H | 3hrs|  |  |
 | Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
-| Create Divs for Citation page | H | 2hrs|  |  |
-| Make citation page appear with click of the button | H | 3hrs|  |  |
 | Add image(s) to page (outside of the api) | H | 1hrs| .5 | .5 |
+| Manipulate CSS making with flexbox after rough CSS is down | H | 3hrs|  |  |
 | Clean up CSS make it visually cohesive | H | 2hrs|  |  |
-| (Attempt) making changes for mobile | H | 3hrs|  |  |
-| (Attempt) loading icon | H | 3hrs|  |  |
-| Total | H | 35hrs| hrs | hrs |
+| Making changes for mobile | H | 3hrs|  |  |
+| Loading icon | H | 3hrs|  |  |
+|  | H | 3hrs|  |  |
+| (Attempt) Create Divs for Citation page | H | 2hrs|  |  |
+| (Attempt) Make citation page appear with click of the button | H | 3hrs|  |  |
+| Total | H | 38hrs| hrs | hrs |
 
 ## Code Snippet
 
