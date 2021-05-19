@@ -29,7 +29,10 @@ function showParks(parkData) {
     </div>
     <div class="park-specifics">
     <div class='park-generals'>
+    <div class='park-description-div'>
     <p class="park-description">${park.description}</p>
+    </div>
+    <div class="park-hours-and-directions">
     <ul class="days-of-the-week">
     <li>Monday: ${parkHours.monday}</li>
     <li>Tuesday: ${parkHours.tuesday}</li>
@@ -39,9 +42,8 @@ function showParks(parkData) {
     <li>Saturday: ${parkHours.saturday}</li>
     <li>Sunday: ${parkHours.sunday}</li>
     </ul>
-    <div class="missing-info">
+    <p class="park-directions">${park.directionsInfo}</p>
     </div>
-  
     </div>
     
     `

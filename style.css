@@ -45,10 +45,18 @@ header {
 
 
 /* left side of screen*/
+.image-box-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(37, 33, 33);
+  padding: 5%;
+  border: 1px solid rgb(37, 33, 33)
+}
 .s-bar{
   display: flex;
   flex-direction: column;
-  background: rgb(126, 109, 86);
+  background: rgb(255, 248, 238);
 }
 .box-and-bar{
   display: flex;
@@ -66,12 +74,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 3%;
+  margin: 5%;
+  border-radius: 15px;
   background-color: rgb(215, 205, 201);
 }
 .states-ul{
   list-style: none;
   padding-left: 15px;
+  font-size: medium;
 }
 .states-initials-ul{
   display: flex;
@@ -80,11 +90,9 @@ header {
   list-style: none;
   text-align: right;
   padding-left: 5%;
+  font-size: medium;
 }
-.park-description{
-  display: flex;
-  flex-direction: column;
-}
+
 
 
 /* right side of screen*/
@@ -94,6 +102,7 @@ header {
   padding-left: 10px;
   background: rgb(223, 233, 219);
   min-height: 100%;
+  border: 1px solid rgb(37, 33, 33)
 }
 .about{
   text-align: center;
@@ -106,61 +115,78 @@ header {
 .img-and-info{
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color:  rgb(215, 250, 216)
+}
+.park-img {
+  width: 40%;
+  max-width: 350px;
+  min-width: 250px;
+  height: auto;
+  border-radius: 15px;
 }
 .park-specifics{
   display: flex;
   background-color: azure;
   justify-content: center;
 }
-.park-img {
-width: 40%;
-max-width: 350px;
-min-width: 250px;
-height: auto;
-border-radius: 15px;
-}
 .park-name-and-park-address{
   background-color: rgb(207, 189, 233);
- align-items: flex-start;
+  align-items: flex-start;
 }
 .park-name{
-text-align: center;
-margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 
 }
 .park-address-city-state{
-text-align: center;
-margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 .park-address{
   text-align: center;
 }
 
+.about{
+  text-align: center;
+}
 .park-generals{
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.park-description-div{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .park-description{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
   width: 85%;
   background-color: rgb(200, 230, 225);
 }
+.park-hours-and-directions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(84, 125, 102);
+}
 .days-of-the-week {
   text-align: left;
   display: block;
   width: 45%;
- 
   background-color:rgb(240, 238, 236);
 }
-.missing-info{
+.park-directions{
   background-color: rgb(223, 209, 196);
- 
+  align-items: center;
 }
 
 @media screen and (max-width: 375px) {
