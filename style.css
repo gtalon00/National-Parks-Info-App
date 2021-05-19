@@ -41,6 +41,8 @@ header {
 .divider {
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  /* margin-left: 0 auto; */
 }
 
 
@@ -49,9 +51,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(37, 33, 33);
+  /* background-color: rgba(37, 33, 33, 0.235); */
   padding: 5%;
-  border: 1px solid rgb(37, 33, 33)
+  /* border: 1px solid rgb(37, 33, 33) */
 }
 .s-bar{
   display: flex;
@@ -63,6 +65,15 @@ header {
   justify-content: center;
   flex-direction: column;
 }
+#search-btn{
+  width: 100%;
+  height: auto;
+}
+#search-bar{
+  height: 25px;
+  text-align: center;
+  width: auto;
+}
 .search-img{
   display: flex;
   justify-content: center;
@@ -70,6 +81,7 @@ header {
   height: auto;
   border-radius: 5%;
 }
+
 .states-div{
   display: flex;
   flex-direction: row;
@@ -97,9 +109,14 @@ header {
 
 /* right side of screen*/
 
+.all-park-info{
+  padding-right: 10px;
+  border-radius: 15px;
+}
 .outcome{
-  min-width: 75%;
-  padding-left: 10px;
+  margin: 0 auto;
+  min-width: 100vh;
+  padding-right: 10px;
   background: rgb(223, 233, 219);
   min-height: 100%;
   border: 1px solid rgb(37, 33, 33)
@@ -111,12 +128,15 @@ header {
   display: flex;
   background-color:  rgb(97, 113, 90);
   padding: 2px;
+  border-radius: 15px;
+
 }
 .img-and-info{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:  rgb(215, 250, 216)
+  background-color:  rgb(215, 250, 216);
+  border-radius: 15px;
 }
 .park-img {
   width: 40%;
@@ -129,10 +149,12 @@ header {
   display: flex;
   background-color: azure;
   justify-content: center;
+  border-radius: 15px;
 }
 .park-name-and-park-address{
   background-color: rgb(207, 189, 233);
   align-items: flex-start;
+  border-radius: 15px;
 }
 .park-name{
   text-align: center;
@@ -170,6 +192,7 @@ header {
   text-align: center;
   width: 85%;
   background-color: rgb(200, 230, 225);
+  border-radius: 15px;
 }
 .park-hours-and-directions{
   display: flex;
@@ -177,16 +200,18 @@ header {
   justify-content: center;
   align-items: center;
   background-color: rgb(84, 125, 102);
+  border-radius: 15px;
 }
 .days-of-the-week {
   text-align: left;
-  display: block;
   width: 45%;
   background-color:rgb(240, 238, 236);
+  border-radius: 15px;
 }
 .park-directions{
   background-color: rgb(223, 209, 196);
   align-items: center;
+  border-radius: 15px;
 }
 
 @media screen and (max-width: 375px) {
