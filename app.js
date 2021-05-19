@@ -21,8 +21,11 @@ function showParks(parkData) {
     <div class='all-park-info'>
     <div class='img-and-info'>
     <img class='park-img'src="${park.images[0].url}">
+    <div class='park-name-and-park-address'>
     <h2 class="park-name">${park.fullName}</h2>
-    <h3 class="park-address">${park.addresses[0].stateCode}, ${park.addresses[0].city}</h3>
+    <h3 class="park-address-city-state">${park.addresses[0].stateCode}, ${park.addresses[0].city}</h3>
+    <h4 class="park-address">${park.addresses[0].line1}</h4>
+    </div>
     </div>
     <div class="park-specifics">
     <div class='park-generals'>
@@ -43,10 +46,7 @@ function showParks(parkData) {
     
     `
     document.querySelector('.park-data').insertAdjacentHTML('beforeend', parkInfo)
-    // for (day in parkHours) {
-    //   let operatingHours = `<p>${day}: ${parkHours[day]}</p>`
-    //   document.querySelector(`#${park.parkCode}-hours`).insertAdjacentHTML('beforeend', operatingHours)
-    // }
+
     return parkInfo
   })
 }
