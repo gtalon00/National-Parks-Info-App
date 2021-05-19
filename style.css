@@ -62,6 +62,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: rgb(215, 205, 201);
 }
 .states-ul{
   list-style: none;
@@ -79,31 +80,57 @@ header {
 
 
 /* right side of screen*/
-/* these two are in the works*/
-/* .all-park-info{
-  display: flex;
-  background-color: blanchedalmond;
-}
-.img-and-info{
-  display: flex;
-  flex-direction: column;
-} */
+
 .outcome{
   min-width: 75%;
   padding-left: 10px;
-  background: rgb(97, 113, 90);
+  background: rgb(223, 233, 219);
   min-height: 100%;
 }
 .about{
   text-align: center;
 }
+
+.all-park-info{
+  display: flex;
+  background-color:  rgb(97, 113, 90);
+  padding: 2px;
+}
+.img-and-info{
+  display: flex;
+  flex-direction: column;
+  background-color:  rgb(215, 250, 216)
+}
+.park-specifics{
+  background-color: azure;
+}
 .park-img {
 width: 40%;
 max-width: 350px;
+min-width: 250px;
 height: auto;
 border-radius: 5%;
+}
+.park-name{
+text-align: center;
+}
+.park-address{
+text-align: center;
+}
+.park-description{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(200, 230, 225);
 }
 .days-of-the-week {
   text-align: left;
   display: block;
+  background-color:rgb(240, 238, 236);
+}
+.missing-info{
+  background-color: rgb(223, 209, 196);
+}
+
+@media screen and (max-width: 375px) {
+  
 }

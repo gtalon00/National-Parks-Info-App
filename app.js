@@ -22,10 +22,11 @@ function showParks(parkData) {
     <div class='img-and-info'>
     <img class='park-img'src="${park.images[0].url}">
     <h2 class="park-name">${park.fullName}</h2>
-    <h3 class="">${park.addresses[0].stateCode}, ${park.addresses[0].city}</h3>
+    <h3 class="park-address">${park.addresses[0].stateCode}, ${park.addresses[0].city}</h3>
     </div>
-    <div class='park-description'>
-    <p class="">${park.description}</p>
+    <div class="park-specifics">
+    <div class='park-generals'>
+    <p class="park-description">${park.description}</p>
     <ul class="days-of-the-week">
     <li>Monday: ${parkHours.monday}</li>
     <li>Tuesday: ${parkHours.tuesday}</li>
@@ -35,7 +36,9 @@ function showParks(parkData) {
     <li>Saturday: ${parkHours.saturday}</li>
     <li>Sunday: ${parkHours.sunday}</li>
     </ul>
-    
+    <div class="missing-info">
+    </div>
+  
     </div>
     
     `
