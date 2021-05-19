@@ -56,6 +56,7 @@ header {
   justify-content: center;
   width: 215px;
   height: auto;
+  border-radius: 5%;
 }
 .states-div{
   display: flex;
@@ -100,6 +101,7 @@ header {
 width: 40%;
 max-width: 350px;
 height: auto;
+border-radius: 5%;
 }
 .days-of-the-week {
   text-align: left;
