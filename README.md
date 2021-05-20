@@ -85,12 +85,12 @@ Matrix: https://wireframe.cc/3axgsI
 | Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
 | Add image(s) to page (outside of the api) | H | 1hrs| .5 | .5 |
 | Helper Bar (for state initials) | H | 2hrs| 2 | 2 |
-| Manipulate CSS making with flexbox after rough CSS is down | H | 3hrs|  |  |
-| Clean up CSS make it visually cohesive | H | 2hrs|  |  |
-| Making changes for mobile | H | 3hrs|  |  |
+| Manipulate CSS making with flexbox after rough CSS is down | H | 3hrs| 5 | 5 |
+| Clean up CSS make it visually cohesive | H | 2hrs| 3 | 3 |
+| Making changes for mobile | H | 3hrs| 3 | 3 |
 | Loading icon | H | 3hrs|  |  |
-| (Attempt) Create Divs for Citation page | H | 2hrs|  |  |
-| (Attempt) Make citation page appear with click of the button | H | 3hrs|  |  |
+| (Attempt) Create Divs for Citation page | H | 2hrs| - | - |
+| (Attempt) Make citation page appear with click of the button | H | 3hrs| - | - |
 | Total | H | 37hrs| hrs | hrs |
 
 ## Code Snippet
