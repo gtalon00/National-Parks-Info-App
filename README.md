@@ -10,6 +10,7 @@ National Parks App
 
 An application that gives the user the chance to look up a multitude of national parks and get information and images on them back in a visually pleasing mannor. I want to give knowledge about the parks to the public that isn't convoluted and hard to get to. Hopefully giving a visually stunning page.
 
+Webpage: file:///Users/anytimeappliance/Desktop/Talon_GA/sei/sparrow/unit_1/P1/National-Parks-Info-App/index.html
 
 ## API and Data Sample
 
@@ -17,7 +18,7 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 
 ```
 {
-    "total": "1",
+    "total": "6",
     "limit": "50",
     "start": "0",
     "data": [
@@ -88,20 +89,22 @@ Matrix: https://wireframe.cc/3axgsI
 | Manipulate CSS making with flexbox after rough CSS is down | H | 3hrs| 5 | 5 |
 | Clean up CSS make it visually cohesive | H | 2hrs| 3 | 3 |
 | Making changes for mobile | H | 3hrs| 3 | 3 |
-| Loading icon | H | 3hrs|  |  |
-| (Attempt) Create Divs for Citation page | H | 2hrs| - | - |
-| (Attempt) Make citation page appear with click of the button | H | 3hrs| - | - |
+| Loading icon | H | 3hrs| - | - |
 | Total | H | 37hrs| hrs | hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+I'm proud of this code snippet because the way I chose to remove items from the
+DOM made it so I could easily put in some basic into text on the main section of
+the page so it wouldn't be as blank.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+button.addEventListener('click', () => {
+  const output = document.querySelector('#search-bar').value
+  getParkNames(output)
+  document.querySelector('.park-data').innerHTML = '<h1 class="about">About the Parks</h1>'
+})
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Was not able to get the loading screen  funtional in time. 

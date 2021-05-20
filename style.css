@@ -158,8 +158,7 @@ header {
   align-items: center;
   border-radius: 15px;
   padding-top: 5%;
-  width: 100%;
-  max-width: 400px;
+  flex: 1 1 400px;
 }
 .park-img {
   width: 60%;
@@ -174,10 +173,9 @@ header {
   background-color: rgb(220, 223, 202);
   justify-content: center;
   align-content: space-between;
-  max-width: 400px;
-  width: 100%;
   border-radius: 15px;
   border: 1px black solid;
+  flex: 1 1 400px;
 }
 .park-name-and-park-address{
   align-items: flex-start;
@@ -212,13 +210,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .park-description{
   display: flex;
   flex-direction: row;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
+  text-align: left;
   width: 85%;
   border-radius: 15px;
 }
@@ -231,21 +228,21 @@ header {
 }
 .days-of-the-week {
   text-align: left;
-  width: 50%;
-  min-width: 40%;
-  max-width: 100%;
-  background-color:rgba(255, 255, 255, 0.721);
   border-radius: 15px;
   list-style: none;
   padding: 1;
+  flex: 1 1 210px;
 }
 .park-directions{
-  background-color: rgba(255, 255, 255, 0.721);
   align-items: center;
-  width: 40%;
-  max-width: 90%;
-  min-width: 165px;
   border-radius: 15px;
+  text-align: left;
+  flex: 1 1 210px;
+}
+.direction-text{
+  width: 85%;
+  text-align: left;
+  margin: auto;
 }
 
 @media screen and (max-width: 1000px) {
