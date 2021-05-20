@@ -21,14 +21,8 @@ header {
   justify-content: flex-start;
   flex-direction: column;
   color: rgb(233, 233, 177);
-    /* color: rgb(220, 235, 222); */
   text-shadow: 1px 0 10px rgb(0, 0, 0);
-  /* text-shadow: 3px 3px black; */
 }
-/* .header-text-two{
-  color: rgb(34, 52, 36);
-  text-shadow: 3px 3px rgb(216, 202, 202);
-} */
   nav {
   display: inline;
 }

@@ -5,13 +5,11 @@ const getParkNames = async (input) => {
   try {
     let filterParks = await axios.get(`https://developer.nps.gov/api/v1/parks?stateCode=${input}&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn`)
     const parkData = filterParks.data.data
-    // console.log(parkData)
     showParks(parkData)
   } catch (error) {
     console.error(error)
   }
 }
-// getParkNames('ME')
 // create a function that creates the park info
 function showParks(parkData) {
   parkData.forEach(park => {
@@ -54,7 +52,6 @@ function showParks(parkData) {
     return parkInfo
   })
 }
-// showParks()
 
 // create button event listener that submits the form
 button.addEventListener('click', () => {
@@ -70,9 +67,3 @@ function appendParkInfo() {
 }
 // Remove recently searched from the DOM
 // define button 
-
-// maybe going back into the code
-// <h3>${park.operatingHours[0].standardHours}</h3>
-// <h3>${park.address[0].city}</h3>
-// <div id="${park.parkCode}-hours"></div>
-// <p>${park.weatherInfo}</p>
