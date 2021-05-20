@@ -1,18 +1,9 @@
-/* * {
-  border: 1px solid rgb(37, 33, 33) !important;
-} */
-
-
-
-/* most of screen*/
 body{
   display: flex;
   flex-direction: column;
   padding: 0px;
   margin: 0px;
-  /* height: 100%; */
   min-height: 100vh;
-  /* width:375px; */
   box-sizing: border-box;
 }
 
@@ -21,7 +12,7 @@ body{
 .nav-bar {
   padding: 0px;
   margin: 0px;
-  background: rgba(0, 0, 0, 0.66);
+  background-color: rgba(92, 128, 86, 0.269);
 }
 header {
   background: url(https://i.imgur.com/WnUsS0E.jpeg);
@@ -29,18 +20,22 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  color: rgb(240, 238, 236);
-  text-shadow: 3px 3px black;
-  /* border: 1px solid rgb(37, 33, 33); */
+  color: rgb(233, 233, 177);
+    /* color: rgb(220, 235, 222); */
+  text-shadow: 1px 0 10px rgb(0, 0, 0);
+  /* text-shadow: 3px 3px black; */
 }
+/* .header-text-two{
+  color: rgb(34, 52, 36);
+  text-shadow: 3px 3px rgb(216, 202, 202);
+} */
   nav {
   display: inline;
-  
 }
 
 
 /* holds right and left side of screen*/
-.divider {
+.bottom-half-of-page {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -53,17 +48,24 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: rgba(37, 33, 33, 0.235); */
   padding: 5%;
 }
 .s-bar{
   display: flex;
   flex-direction: column;
   width: 25vw;
-  background: rgb(255, 248, 238);
+  background: rgba(200, 222, 219, 0.769);
   border: 1px solid rgb(37, 33, 33) !important;
   min-width: 150px;
-
+}
+.s-bar-intro{
+  font-family: 'KoHo', sans-serif;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 20px 10% 5px 10%;
+  text-align: center;
+  font-size: x-Large;
 }
 .box-and-bar{
   display: flex;
@@ -82,9 +84,11 @@ header {
 .search-img{
   display: flex;
   justify-content: center;
-  width: 215px;
+  width: 95%;
   height: auto;
-  /* border-radius: 5%; */
+  border-radius: 15px;
+  border: 2px solid rgb(37, 33, 33);
+  margin-bottom: 10px;
 }
 
 .states-div{
@@ -92,8 +96,10 @@ header {
   flex-direction: row;
   justify-content: center;
   margin: 5%;
-  /* border-radius: 15px; */
-  background-color: rgb(215, 205, 201);
+  margin-top: 0;
+  border-radius: 15px;
+  background-color: rgb(230, 233, 211);
+  border: 1px solid rgb(37, 33, 33);
 }
 .states-ul{
   list-style: none;
@@ -116,25 +122,37 @@ header {
 .outcome{
   margin: 0 auto;
   width: 75%;
-  /* max-width: 75%; */
-  /* padding-right: 10px; */
   background: rgba(105, 130, 107, 0.769);
   min-height: 100%;
   border: 1px solid rgb(0, 0, 0)
 }
 .about{
+  font-family: 'KoHo', sans-serif;
   text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgb(37, 33, 33);
+  margin: 20px 10%;
+}
+.intro-text{
+  font-family: 'KoHo', sans-serif;
+  background-color: rgba(226, 241, 240, 0.769);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 20px 10%;
 }
 .all-park-info{
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  background-color:  rgb(130, 67, 67);
+  background-color:  rgba(226, 241, 240, 0.769);
   padding-right: 10px;
   border-radius: 15px;
   padding: 2px;
   border-radius: 15px;
   margin: 20px 10%;
+  border: 2px solid rgb(37, 33, 33)
 }
 .park-data{
   width: 100%;
@@ -142,8 +160,8 @@ header {
 .img-and-info{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  /* background-color:  rgb(215, 250, 216); */
   border-radius: 15px;
   padding-top: 5%;
   width: 100%;
@@ -151,9 +169,9 @@ header {
 }
 .park-img {
   width: 60%;
-  max-width: 350px;
-  min-width: 200px;
-  border: rgb(0, 0, 0) solid ;
+  max-width: 400px;
+  min-width: 300px;
+  border: 1px rgb(0, 0, 0) solid ;
   height: auto;
   border-radius: 15px;
 }
@@ -164,25 +182,26 @@ header {
   align-content: space-between;
   max-width: 400px;
   width: 100%;
-  /* min-width: 1000px; */
   border-radius: 15px;
+  border: 1px black solid;
 }
 .park-name-and-park-address{
-  /* background-color: rgb(207, 189, 233); */
   align-items: flex-start;
   border-radius: 15px;
 }
 .park-name{
   text-align: center;
   margin-top: 20px;
-
+  font-family: 'Merriweather', serif;
 }
 .park-address-city-state{
   text-align: center;
   margin-top: 10px;
+  font-family: 'Merriweather', serif;
 }
 .park-address{
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 .about{
@@ -207,7 +226,6 @@ header {
   padding-right: 20px;
   text-align: center;
   width: 85%;
-  /* background-color: rgb(200, 230, 225); */
   border-radius: 15px;
 }
 .park-hours-and-directions{
@@ -215,29 +233,44 @@ header {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  /* background-color: rgb(84, 125, 102); */
   border-radius: 15px;
 }
 .days-of-the-week {
   text-align: left;
-  width: 40%;
+  width: 50%;
+  min-width: 40%;
   max-width: 100%;
   background-color:rgba(255, 255, 255, 0.721);
   border-radius: 15px;
   list-style: none;
-  padding-left: 0;
+  padding: 1;
 }
 .park-directions{
   background-color: rgba(255, 255, 255, 0.721);
   align-items: center;
   width: 40%;
   max-width: 90%;
-  min-width: 210px;
+  min-width: 165px;
   border-radius: 15px;
 }
 
 @media screen and (max-width: 1000px) {
 .all-park-info{
   flex-flow: column nowrap;
+}
+.park-img{
+  min-width: 165px;
+}
+}
+
+@media screen and (max-width: 375px) {
+.park-directions{
+max-width: 5x;
+}
+.park-img{
+max-width: 200px;
+}
+.search-img{
+  max-width: 140px;
 }
 }
