@@ -64,7 +64,7 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 |May 17| Project Approval / Boilerplate HTML, CSS, etc. | Complete
 |May 18| Pseudocode / Functional User Input JS | Complete
 |May 19| Rough Draft CSS Layout (The final product but not refined) | Complete
-|May 20| Finshed CSS refined look. attempted loading icon | Incomplete
+|May 20| Finshed CSS refined look. attempted loading icon | Complete
 |May 21| Presentations | Incomplete
 
 ## Priority Matrix
@@ -82,7 +82,7 @@ Matrix: https://wireframe.cc/3axgsI
 | Get the name, image, description, location, and hours for the parks | H | 3hrs| 4 | 4 |
 | Append results to the DOM | H | 3hrs| 1.5 | 1.5 |
 | Remove former searches | H | 2hrs| 1 | 1 |
-| Check efficiency of code (could it be condensed) | H | 1hrs|  |  |
+| Check efficiency of code (could it be condensed) | H | 1hrs| 1 | 1 |
 | Add image(s) to page (outside of the api) | H | 1hrs| .5 | .5 |
 | Helper Bar (for state initials) | H | 2hrs| 2 | 2 |
 | Manipulate CSS making with flexbox after rough CSS is down | H | 3hrs| 5 | 5 |
