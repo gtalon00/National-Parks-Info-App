@@ -3,6 +3,7 @@
 } */
 
 
+
 /* most of screen*/
 body{
   display: flex;
@@ -11,6 +12,7 @@ body{
   margin: 0px;
   /* height: 100%; */
   min-height: 100vh;
+  /* width:375px; */
   box-sizing: border-box;
 }
 
@@ -22,14 +24,14 @@ body{
   background: rgba(0, 0, 0, 0.66);
 }
 header {
-  background: url(https://i.imgur.com/cMzhQVf.jpg);
+  background: url(https://i.imgur.com/WnUsS0E.jpeg);
   background-size: cover;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   color: rgb(240, 238, 236);
   text-shadow: 3px 3px black;
-  border: 1px solid rgb(37, 33, 33);
+  /* border: 1px solid rgb(37, 33, 33); */
 }
   nav {
   display: inline;
@@ -41,8 +43,8 @@ header {
 .divider {
   display: flex;
   flex-direction: row;
-  width: 100vw;
-  /* margin-left: 0 auto; */
+  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -53,12 +55,15 @@ header {
   align-items: center;
   /* background-color: rgba(37, 33, 33, 0.235); */
   padding: 5%;
-  /* border: 1px solid rgb(37, 33, 33) */
 }
 .s-bar{
   display: flex;
   flex-direction: column;
+  width: 25vw;
   background: rgb(255, 248, 238);
+  border: 1px solid rgb(37, 33, 33) !important;
+  min-width: 150px;
+
 }
 .box-and-bar{
   display: flex;
@@ -79,7 +84,7 @@ header {
   justify-content: center;
   width: 215px;
   height: auto;
-  border-radius: 5%;
+  /* border-radius: 5%; */
 }
 
 .states-div{
@@ -87,13 +92,13 @@ header {
   flex-direction: row;
   justify-content: center;
   margin: 5%;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   background-color: rgb(215, 205, 201);
 }
 .states-ul{
   list-style: none;
   padding-left: 15px;
-  font-size: medium;
+  font-size: smaller;
 }
 .states-initials-ul{
   display: flex;
@@ -102,57 +107,68 @@ header {
   list-style: none;
   text-align: right;
   padding-left: 5%;
-  font-size: medium;
+  font-size: smaller;
 }
 
 
 
 /* right side of screen*/
-
-.all-park-info{
-  padding-right: 10px;
-  border-radius: 15px;
-}
 .outcome{
   margin: 0 auto;
-  min-width: 100vh;
-  padding-right: 10px;
-  background: rgb(223, 233, 219);
+  width: 75%;
+  /* max-width: 75%; */
+  /* padding-right: 10px; */
+  background: rgba(105, 130, 107, 0.769);
   min-height: 100%;
-  border: 1px solid rgb(37, 33, 33)
+  border: 1px solid rgb(0, 0, 0)
 }
 .about{
   text-align: center;
 }
 .all-park-info{
   display: flex;
-  background-color:  rgb(97, 113, 90);
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color:  rgb(130, 67, 67);
+  padding-right: 10px;
+  border-radius: 15px;
   padding: 2px;
   border-radius: 15px;
-
+  margin: 20px 10%;
+}
+.park-data{
+  width: 100%;
 }
 .img-and-info{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:  rgb(215, 250, 216);
+  /* background-color:  rgb(215, 250, 216); */
   border-radius: 15px;
+  padding-top: 5%;
+  width: 100%;
+  max-width: 400px;
 }
 .park-img {
-  width: 40%;
+  width: 60%;
   max-width: 350px;
-  min-width: 250px;
+  min-width: 200px;
+  border: rgb(0, 0, 0) solid ;
   height: auto;
   border-radius: 15px;
 }
 .park-specifics{
   display: flex;
-  background-color: azure;
+  background-color: rgb(220, 223, 202);
   justify-content: center;
+  align-content: space-between;
+  max-width: 400px;
+  width: 100%;
+  /* min-width: 1000px; */
   border-radius: 15px;
 }
 .park-name-and-park-address{
-  background-color: rgb(207, 189, 233);
+  /* background-color: rgb(207, 189, 233); */
   align-items: flex-start;
   border-radius: 15px;
 }
@@ -175,8 +191,8 @@ header {
 .park-generals{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+  align-content: space-between;
 }
 .park-description-div{
   display: flex;
@@ -191,29 +207,37 @@ header {
   padding-right: 20px;
   text-align: center;
   width: 85%;
-  background-color: rgb(200, 230, 225);
+  /* background-color: rgb(200, 230, 225); */
   border-radius: 15px;
 }
 .park-hours-and-directions{
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(84, 125, 102);
+  /* background-color: rgb(84, 125, 102); */
   border-radius: 15px;
 }
 .days-of-the-week {
   text-align: left;
-  width: 45%;
-  background-color:rgb(240, 238, 236);
+  width: 40%;
+  max-width: 100%;
+  background-color:rgba(255, 255, 255, 0.721);
   border-radius: 15px;
+  list-style: none;
+  padding-left: 0;
 }
 .park-directions{
-  background-color: rgb(223, 209, 196);
+  background-color: rgba(255, 255, 255, 0.721);
   align-items: center;
+  width: 40%;
+  max-width: 90%;
+  min-width: 210px;
   border-radius: 15px;
 }
 
-@media screen and (max-width: 375px) {
-  
+@media screen and (max-width: 1000px) {
+.all-park-info{
+  flex-flow: column nowrap;
+}
 }

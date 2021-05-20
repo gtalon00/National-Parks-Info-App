@@ -63,7 +63,7 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 |May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |May 17| Project Approval / Boilerplate HTML, CSS, etc. | Complete
 |May 18| Pseudocode / Functional User Input JS | Complete
-|May 19| Rough Draft CSS Layout (The final product but not refined) | Incomplete
+|May 19| Rough Draft CSS Layout (The final product but not refined) | Complete
 |May 20| Finshed CSS refined look. attempted loading icon | Incomplete
 |May 21| Presentations | Incomplete
 

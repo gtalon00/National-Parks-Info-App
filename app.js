@@ -42,7 +42,9 @@ function showParks(parkData) {
     <li>Saturday: ${parkHours.saturday}</li>
     <li>Sunday: ${parkHours.sunday}</li>
     </ul>
-    <p class="park-directions">${park.directionsInfo}</p>
+    <div class="park-directions">
+    <p class="direction-text">${park.directionsInfo}</p>
+    </div>
     </div>
     </div>
     
