@@ -10,11 +10,11 @@ National Parks App
 
 An application that gives the user the chance to look up a multitude of national parks and get information and images on them back in a visually pleasing mannor. I want to give knowledge about the parks to the public that isn't convoluted and hard to get to. Hopefully giving a visually stunning page.
 
-Webpage: file:///Users/anytimeappliance/Desktop/Talon_GA/sei/sparrow/unit_1/P1/National-Parks-Info-App/index.html
+[Deployed Webpage](https://gtalon00.github.io/National-Parks-Info-App/)
 
 ## API and Data Sample
 
-https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn
+[API data](https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn)
 
 ```
 {
@@ -37,8 +37,8 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 
 ## Wireframes
 
-- Homepage = https://wireframe.cc/HyFbTt
-- Citation Page = https://wireframe.cc/sHV1m5
+[Main Page](https://wireframe.cc/HyFbTt)
+[Citation Page](https://wireframe.cc/)sHV1m5
 
 ### MVP/PostMVP
 
@@ -70,7 +70,7 @@ https://developer.nps.gov/api/v1/parks?stateCode=ME&api_key=iDGndNNbXpQ40TKBbBOE
 
 ## Priority Matrix
 
-Matrix: https://wireframe.cc/3axgsI
+[Matrix](https://wireframe.cc/3axgsI)
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
