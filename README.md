@@ -107,4 +107,4 @@ button.addEventListener('click', () => {
 ```
 
 ## Change Log
- Was not able to get the loading screen  funtional in time. 
+ Was not able to get the loading screen funtional in time. 

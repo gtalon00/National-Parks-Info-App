@@ -1,6 +1,6 @@
 const button = document.querySelector('#search-btn')
 
-// create nameless function with axios and the url
+// function with axios and the url
 const getParkNames = async (input) => {
   try {
     let filterParks = await axios.get(`https://developer.nps.gov/api/v1/parks?stateCode=${input}&api_key=iDGndNNbXpQ40TKBbBOEIetSM80ONg1kacWC9Pvn`)
@@ -10,7 +10,7 @@ const getParkNames = async (input) => {
     console.error(error)
   }
 }
-// create a function that creates the park info
+// function that creates the park info
 function showParks(parkData) {
   parkData.forEach(park => {
     let parkHours = park.operatingHours[0].standardHours
@@ -53,7 +53,8 @@ function showParks(parkData) {
   })
 }
 
-// create button event listener that submits the form
+// Remove recently searched from the DOM
+// button event listener that submits
 button.addEventListener('click', () => {
   const output = document.querySelector('#search-bar').value
   getParkNames(output)
@@ -65,5 +66,3 @@ function appendParkInfo() {
   let displayPark = document.querySelector('section')
   displayPark.append(showParks)
 }
-// Remove recently searched from the DOM
-// define button 

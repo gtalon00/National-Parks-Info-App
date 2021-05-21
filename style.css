@@ -7,6 +7,46 @@ body{
   box-sizing: border-box;
 }
 
+.centering{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  background-color:antiquewhite;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  max-height: 400px;
+  max-width: 1379.020px;
+  transform: rotate(45deg);
+  animation: pulse 2s infinite;
+}
+
+.mountain-l{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 150px 0px 0;
+  border-color: rgb(184, 163, 147)transparent transparent transparent;
+  transform: translate(67%,67%);
+}
+.mountain-m{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 200px 200px 0px 0;
+  border-color: rgb(58, 41, 28)transparent transparent transparent;
+  
+}
+
+@keyframes pulse {
+  75%{
+    transform: rotate(45deg) scale(1.5);
+  }
+}
+
+
 
 /* top of screen*/
 .nav-bar {
@@ -38,12 +78,6 @@ header {
 
 
 /* left side of screen*/
-.image-box-button{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5%;
-}
 .s-bar{
   display: flex;
   flex-direction: column;
@@ -51,6 +85,12 @@ header {
   background: rgba(200, 222, 219, 0.769);
   border: 1px solid rgb(37, 33, 33) !important;
   min-width: 150px;
+}
+.image-box-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
 }
 .s-bar-intro{
   font-family: 'KoHo', sans-serif;
@@ -225,6 +265,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  background-color: rgb(240, 254, 249);
 }
 .days-of-the-week {
   text-align: left;
@@ -243,6 +284,13 @@ header {
   width: 85%;
   text-align: left;
   margin: auto;
+}
+
+footer{
+  text-align: center;
+  background: url(https://i.imgur.com/WnUsS0E.jpeg);
+  color: rgb(233, 233, 177);
+  text-shadow: 1px 0 10px rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1000px) {
