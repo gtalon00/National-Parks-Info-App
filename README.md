@@ -107,4 +107,4 @@ button.addEventListener('click', () => {
 ```
 
 ## Change Log
- Was not able to get the loading screen funtional in time. 
+ Was able to get the loading screen funtional in time, but was not able to attach it to the webpage
